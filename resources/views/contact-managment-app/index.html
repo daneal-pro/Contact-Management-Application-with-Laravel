@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <script src="bootstrap.bundle.min.js"></script>
+    <script src="https://kit.fontawesome.com/602a3d1d6d.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="container py-3">
+        <h1 class="text-center">All Contacts</h1>
+    </div>
+    <div class="container py-2">
+        <div class="row">
+            <div class="col-sm-6 mx-auto justify-content-center">
+                <div class="input-group rounded">
+                    <input type="search" class="form-control rounded" placeholder="Search by name or email" aria-label="Search" aria-describedby="search-addon" />
+                    <a class="input-group-text border-0"  href="">
+                      <span id="search-addon">
+                        <i class="fas fa-search"></i>
+                      </span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container text-center py-1">
+        <button type="button" class="btn btn-secondary"><span><i class="fa-solid fa-square-plus"></i></span> Create New Contact</button>
+    </div>
+    <div class="container">
+        <table class="table">
+            <thead>
+              <tr>
+                <th scope="col">#</th>
+                <th scope="col">Name</th>
+                <th scope="col">Email</th>
+                <th scope="col">phone</th>
+                <th scope="col">Address</th>
+                <th scope="col">Created At</th>
+                <th scope="col">Action</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row">1</th>
+                <td>Mark</td>
+                <td>Otto</td>
+                <td>@mdo</td>
+                <td>Otto</td>
+                <td>@mdo</td>
+                <td><a href=""><i class="fa-regular fa-eye"></i></a> | <a href=""><i class="fa-regular fa-pen-to-square"></i></a> | <a href=""><i class="fa-solid fa-trash"></i></a></td>
+              </tr>
+              <tr>
+                <th scope="row">2</th>
+                <td>Jacob</td>
+                <td>Thornton</td>
+                <td>@fat</td>
+                <td>Otto</td>
+                <td>@mdo</td>
+                <td><a href=""><i class="fa-regular fa-eye"></i></a> | <a href=""><i class="fa-regular fa-pen-to-square"></i></a> | <a href=""><i class="fa-solid fa-trash"></i></a></td>
+              </tr>
+            </tbody>
+          </table>
+    </div>
+</body>
+</html>
